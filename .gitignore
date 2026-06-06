@@ -1,0 +1,31 @@
+# Sensitive files
+.env
+.env.*
+*.env
+
+# Python Virtual Environments
+venv/
+myenv/
+env/
+.venv/
+ENV/
+server/venv/
+client/myenv/
+
+# Python bytecode/cache
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Application specific data
+server/chroma_store/
+server/uploaded_pdfs/
+uploaded_pdfs/
+chroma_store/
+
+# OS/IDE specific files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
